@@ -1,0 +1,126 @@
+/* css PC */
+@media (min-width: 1024px) {
+    #header .menu-header {
+        display: none;
+    }
+}
+
+/* css Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #header .menu-header {
+        display: none;
+    }
+
+    .modal-ticket {
+        margin: 0 16px;
+    }
+}
+
+
+/* css Mobile */
+@media (max-width: 739px) {
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav .subnav {
+        position: initial;
+    }
+
+    .subnav li a {
+        background-color: rgb(142, 121, 121);
+    }
+
+    #nav .subnav li a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .member-name {
+        margin-top: 16px;
+    }
+
+    .members-list {
+        margin-top: 12px;
+    }
+    
+    #content .member-avt {
+        width: 60%;
+    }
+
+    .tour .place-item {
+        width: 100%;
+    }
+
+    .contact-content.contact-address {
+        width: 100%;
+    }
+
+    .contact-content.contact-form {
+        width: 100%;
+    }
+
+    .contact .contact-input-info {
+        float: unset;
+        width: 100%;
+        margin-top: 8px;
+    }
+
+    .contact .input-info {
+        padding: 16px;
+    }
+
+    .contact .input-mess {
+        padding: 16px;
+    }
+
+    .contact .form-info {
+        margin-top: 16px;
+    }
+
+    .contact .btn-send {
+        width: 100%;
+        padding: 16px 0;
+    }
+
+    .tour .buy-tickets {
+        width: 100%;
+        padding: 16px;
+    }
+
+    #footer .social {
+        font-size: 28px;
+    }
+
+    #footer .copyright {
+        font-size: 16px;
+    }
+
+    .modal-ticket {
+        margin: 0 16px;
+    }
+
+    .modal-input {
+        padding: 15px;
+    }
+}
